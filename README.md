@@ -169,7 +169,7 @@ Use @PostConstruct for logic that shouldn’t run on construction, and optionall
 
 ---
 
-## 🧠 Pro Tip:
+## Pro Tip:
 Use `@PostConstruct` and `@PreDestroy` for most cases.  
 Only use interfaces like `InitializingBean`, `DisposableBean`, or `*Aware` for infrastructure or advanced needs.
 
